@@ -1,259 +1,505 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Wintit | Le seul logiciel professionnel abordable de gestion de portefeuilles titres</title>
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"js/wp-emoji-release.min.js"}};
-			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-<link rel='stylesheet' id='contact-form-7-css'  href='css/styles.css' type='text/css' media='all' />
-<link rel='stylesheet' id='merlin-stylesheet-css'  href='css/merlin/style.css' type='text/css' media='all' />
-<link rel='stylesheet' id='merlin-genericons-css'  href='css/merlin/css/genericons/genericons.css' type='text/css' media='all' />
-<link rel='stylesheet' id='skel-css'  href='css/merlin/css/skel.css' type='text/css' media='all' />
-<link rel='stylesheet' id='merlin-default-fonts-css'  href='css/merlin/css/fonts.googleapis.css' type='text/css' media='all' />
-<script type='text/javascript' src='js/jquery.1.11.3.js'></script>
-<script type='text/javascript' src='js/jquery-migrate.min.1.2.1.js'></script>
-<!--[if lt IE 9]>
-<script type='text/javascript' src='js/html5shiv.min.3.7.2.js'></script>
-<![endif]-->
-<script type='text/javascript' src='js/navigation.4.3.1.js'></script>
-<script type='text/javascript' src='js/sidebar.4.3.1.js'></script>
-<!--<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://octoperf.github.io/wintit/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://octoperf.github.io/wintit/wp-includes/wlwmanifest.xml" /> -->
-<link rel='canonical' href='http://octoperf.github.io/wintit' />
-<link rel='shortlink' href='http://octoperf.github.io/wintit' />
-	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
-<style type="text/css" id="custom-background-css">
-body.custom-background { background-color: #cccccc; }
-</style>
+    <title>Wintit | Le seul logiciel professionnel abordable de gestion de portefeuilles titres</title>
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "http:\/\/s.w.org\/images\/core\/emoji\/72x72\/",
+            "ext": ".png",
+            "source": {"concatemoji": "js/wp-emoji-release.min.js"}
+        };
+        !function (a, b, c) {
+            function d(a) {
+                var c = b.createElement("canvas"), d = c.getContext && c.getContext("2d");
+                return d && d.fillText ? (d.textBaseline = "top", d.font = "600 32px Arial", "flag" === a ? (d.fillText(String.fromCharCode(55356, 56812, 55356, 56807), 0, 0), c.toDataURL().length > 3e3) : (d.fillText(String.fromCharCode(55357, 56835), 0, 0), 0 !== d.getImageData(16, 16, 1, 1).data[0])) : !1
+            }
+
+            function e(a) {
+                var c = b.createElement("script");
+                c.src = a, c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c)
+            }
+
+            var f, g;
+            c.supports = {simple: d("simple"), flag: d("flag")}, c.DOMReady = !1, c.readyCallback = function () {
+                c.DOMReady = !0
+            }, c.supports.simple && c.supports.flag || (g = function () {
+                c.readyCallback()
+            }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function () {
+                "complete" === b.readyState && c.readyCallback()
+            })), f = c.source || {}, f.concatemoji ? e(f.concatemoji) : f.wpemoji && f.twemoji && (e(f.twemoji), e(f.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='contact-form-7-css' href='css/styles.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='merlin-stylesheet-css' href='css/merlin/style.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='merlin-genericons-css' href='css/merlin/css/genericons/genericons.css' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='skel-css' href='css/merlin/css/skel.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='merlin-default-fonts-css' href='css/merlin/css/fonts.googleapis.css' type='text/css'
+          media='all'/>
+    <script type='text/javascript' src='js/jquery.1.11.3.js'></script>
+    <script type='text/javascript' src='js/jquery-migrate.min.1.2.1.js'></script>
+    <!--[if lt IE 9]>
+    <script type='text/javascript' src='js/html5shiv.min.3.7.2.js'></script>
+    <![endif]-->
+    <script type='text/javascript' src='js/navigation.4.3.1.js'></script>
+    <script type='text/javascript' src='js/sidebar.4.3.1.js'></script>
+    <!--<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://octoperf.github.io/wintit/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://octoperf.github.io/wintit/wp-includes/wlwmanifest.xml" /> -->
+    <link rel='canonical' href='http://octoperf.github.io/wintit'/>
+    <link rel='shortlink' href='http://octoperf.github.io/wintit'/>
+    <style type="text/css">.recentcomments a {
+        display: inline !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }</style>
+    <style type="text/css" id="custom-background-css">
+        body.custom-background {
+            background-color: #cccccc;
+        }
+    </style>
 </head>
 
 <body class="home page page-id-80 page-template page-template-template-fullwidth page-template-template-fullwidth-php custom-background">
 
-	<div id="page" class="hfeed site">
-		
-		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-		
-		<header id="masthead" class="site site-header clearfix" role="banner">
-			
-			<div id="header-top" class="header-bar-wrap">
-				
-				
-	<div id="header-bar" class="header-bar clearfix">
-		
-				
-	</div>				
-			</div>
-			
-			<div class="header-main clearfix">
+<div id="page" class="hfeed site">
 
-				<div id="logo" class="site-branding clearfix">
-				
-					
-	<a href="http://octoperf.github.io/wintit" title="Wintit" rel="home">
-		<h1 class="site-title">Wintit</h1>
-	</a>
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-				
-				</div><!-- .site-branding -->
+    <header id="masthead" class="site site-header clearfix" role="banner">
 
-				<div id="logo2" class="site-branding-alt clearfix">
-					<a href="http://octoperf.github.io/wintit" rel="home">
-						<h1 class="site-title">Nabis</h1>
-					</a>
-				</div>
+        <div id="header-top" class="header-bar-wrap">
 
-				<div class="site-description">Le seul logiciel professionnel abordable de gestion de portefeuilles titres</div>
 
-				<div class="header-widgets clearfix">
-					
-										
-				</div><!-- .header-widgets -->
+            <div id="header-bar" class="header-bar clearfix">
 
-			</div><!-- .header-main -->
-			
-			<nav id="main-navigation" class="primary-navigation navigation clearfix" role="navigation">
-				<ul id="menu-one-page" class="main-navigation-menu"><li id="menu-item-82" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82"><a href="#accueil">Accueil</a></li>
-<li id="menu-item-84" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84"><a href="#produit">Produit</a></li>
-<li id="menu-item-83" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83"><a href="#services">Services</a></li>
-<li id="menu-item-86" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-86"><a href="#contact">Contact</a></li>
-</ul>			</nav><!-- #main-navigation -->
-			
-					
-		</header><!-- #masthead -->
-		
-		<div id="content" class="site-content container clearfix">
-		
 
-	<section id="primary" class="fullwidth-content-area content-area">
-		<main id="main" class="site-main" role="main">
-		
-			
-	<article id="post-80" class="post-80 page type-page status-publish hentry">
-		
-		<header class="entry-header">
-			
-			<!--<h1 class="page-title">One Page</h1>-->
-			
-		</header><!-- .entry-header -->
+            </div>
+        </div>
 
-		<div class="entry-content clearfix">
-			<section id="accueil">Vous voulez <strong>contrôler</strong> votre gestion de portefeuilles titres.Vous avez des besoins en termes de <strong>gestion, comptabilisation, reporting</strong> de vos investissements.<strong>WINTIT</strong> répond à ces problématiques depuis <strong>plus de 20 ans</strong> quelle que soit l’importance du patrimoine que vous gérez.Plus de <strong>50 milliards d’euros</strong> d’encours sont suivis dans <strong>WINTIT</strong> à l’heure actuelle.Notre maitrise des <strong>spécificités métier</strong> et des dispositions propres à chacun de nos clients <strong>banques, mutuelles, caisses de retraite, caisses de congés payés, sociétés…</strong>, ont renforcé au cours du temps notre connaissance pointue des acteurs et réalités de terrain et nous permet de vous proposer les meilleures recommandations possibles.La <strong>pérennité du logiciel</strong> a toujours été garanti par son adaptabilité aux nouvelles <strong>exigences réglementaires et financières</strong>, résultat de l’écoute particulière de notre clientèle et à notre réactivité de développement.</p>
-<p>Afin de <strong>perpétuer</strong> ce savoir-faire et l’enrichir, notre équipe se renforce par la formation de nouveaux collaborateurs et nous sommes heureux de pouvoir annoncer très prochainement l’accès du logiciel <strong>WINTIT sur le Net.</strong></p>
-<p style="text-align: center;"><strong>WINTIT a vocation à satisfaire vos prérequis :</strong></p>
-<p style="text-align: center;"><strong>Budget, Fonctionnalités, Mises en œuvre</strong></p>
-</section>
-<section id="produit">
-<h1>Produit</h1>
-<h2>LE LOGICIEL</h2>
-<p><strong>WINTIT</strong> est un <strong>logiciel professionnel</strong> de gestion de portefeuilles titres qui permet à des<strong>institutionnels, sociétés, experts comptables, gestionnaires de patrimoine</strong> de toutes tailles de gérerun nombre quelconque de <strong>portefeuilles titres et placements</strong>, multi-sociétés, multi-gestionnaires,multi-devises pour eux-mêmes ou pour le compte de tiers.</p>
-<p>Une <strong>ergonomie</strong> simple et efficace rend l’utilisation de <strong>WINTIT</strong> particulièrement facile et apporterapidement tous les éléments nécessaires à la <strong>comptabilisation</strong> et aux <strong>décisions financières</strong>.</p>
-<p>Notre savoir-faire s’est appuyé sur la qualité des <strong>partenariats</strong> développés depuis de longues années auprès des <strong>spécialistes financiers</strong> nous permettant de vous fournir à la demande de nombreux <strong>calculs indispensables</strong> à votre métier, taux actuariels, sensibilité, duration, rendements, valeurs actuelles, …</p>
-<p>Pour pouvoir satisfaire aux <strong>exigences</strong> de tous les protagonistes appelés à faire des <strong>contrôles</strong>, nous nous appliquons à faire en sorte de pouvoir fournir une <strong>piste d’audit</strong> de tous les éléments fournis par le logiciel.</p>
-<p>Ainsi en <strong>une seule saisie</strong> – manuelle ou automatique – vous êtes à même de</p>
-<p>&#8211; <strong>Comptabiliser</strong> : journaux, grand livre, piste d’audit, interface vers votre comptabilité générale…,</p>
-<p>&#8211; <strong>Valorisation</strong> des portefeuilles : mise à jour des cours, plus ou moins values latentes, ratios sur n’importe quel critère,</p>
-<p>&#8211; <strong>Gérer et prévoir</strong> : états synthétiques et échéanciers,</p>
-<p>&#8211; <strong>Analyser</strong> : dispersion du portefeuille, risque, rendement actuariel et comptable, analyse obligataire…,</p>
-<p>&#8211; <strong>Etats réglementaires</strong> mutuelles prévoyance retraite assurance banque</p>
-<p>Par exemple  pour les mutuelles, assurance et prévoyance :</p>
-<p>réserves de capitalisation, calcul d’amortissement, états trimestriels – T2, T3, états suivis de placements…</p>
-<p>Les nombreux attributs de titres de placements nécessaires à l’établissement des <strong>QRT</strong> à transmettre à l’<strong>ACPR</strong>.</p>
-<p>Aujourd’hui, le logiciel WINTIT est enrichi d’un très grand nombre d’attributs, <strong>notations</strong>, Code <strong>LEI</strong> (Legal Entity Identifier (ISO 17442)), Code <strong>CIC</strong> (Complementary Identification Code), Code <strong>NACE</strong> (Nomenclature d’Activités Européennes)…</p>
-<p>Toutes ces tables peuvent être mises à jour par importation automatique de façon massive.</p>
-<p>Le gage de <strong>pérennité</strong> du logiciel est notre <strong>veille réglementaire</strong>.</p>
-<p>Depuis toujours nous avons su faire évoluer le logiciel en adéquation avec les perpétuelles <strong>évolutions des réglementations</strong>.</p>
-<h2>INTERFACE ET DEVELOPPEMENTS SPECIFIQUES</h2>
-<p>A partir d’un fichier standard ou spécifique</p>
-<p>&#8211; <strong>Mise à jour des cours</strong> de bourses automatique,<br/>
-&#8211; Déversement dans la <strong>comptabilité générale</strong>,<br/>
-&#8211; Intégration automatique <strong>d’avis d’opérés</strong>,<br/>
-&#8211; Intégration de <strong>caractéristiques titres</strong>,<br/>
-&#8211; Intégration <strong>attributs de titres de placements</strong></p>
-<p>Toute demande de restitution dans le logiciel <strong>Wintit</strong> peut se faire simplement d’un accès direct soit :</p>
-<p>&#8211; Aux normes <strong>Wintit</strong>,</p>
-<p>&#8211; sur <strong>Excel</strong>,</p>
-<p>&#8211; Au format de votre <strong>liasse spécifique</strong></p>
-<p>Les <strong>informations</strong> de <strong>Wintit</strong> peuvent, à la demande, être formatées pour un <strong>déversement</strong> dans n’importe quel logiciel de votre société.</p>
-<p>En règle générale toute <strong>demande</strong> personnalisée sera analysée et développée sur cahier des charges pour la réalisation à façon de modules <strong>spécifiques</strong> externes ou intégrés.</p>
-</section>
-<section id="services">
-<h1>Services</h1>
-<h2>HOT-LINE, MAINTENANCE ET FORMATION</h2>
-<p>Après une <strong>démonstration sur site</strong> notre équipe sera là pour vous aider à la <strong>mise en place</strong>, au <strong>paramétrage</strong> et sera un appui pour l’<strong>intégration</strong> du logiciel dans le <strong>système d’information</strong> de l’entreprise (écriture des procédures adaptées à votre organisation interne…).</p>
-<p>Vous serez <strong>soutenu</strong> par un <strong>spécialiste privilégié</strong>, compétent dans votre domaine qui sera à votre écoute et vous conseillera sur le logiciel au quotidien à <strong>distance</strong> ou <strong>sur site</strong>.</p>
-<p>L’<strong>originalité</strong> de notre <strong>maintenance</strong> est non seulement de vous faire profiter d’une <strong>hot line réactive</strong> mais aussi de vous fournir toutes les <strong>mises à jour</strong> mineures ou majeures <strong>gratuitement</strong> afin que vous puissiez toujours être au fait des évolutions métier.</p>
-<p>Notre équipe sera bien entendu disponible pour effectuer des <strong>formations</strong> selon vos besoins.</p>
-<p style="text-align: center;"><strong>A bientôt</strong></p>
-</section>
-<section id="contact">
-<h1>Contact</h1>
-<p class="Gras"><b>Société <span class="Nabis">Nabis</span></b></p>
-<p>Merci de bien vouloir renseigner toutes les rubriques ci-dessous, puis de cliquer sur [Envoyer]<br />
-<div role="form" class="wpcf7" id="wpcf7-f94-p80-o1" lang="en-US" dir="ltr">
-<div class="screen-reader-response"></div>
-<form action="/#wpcf7-f94-p80-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-<div style="display: none;">
-<input type="hidden" name="_wpcf7" value="94" />
-<input type="hidden" name="_wpcf7_version" value="4.3" />
-<input type="hidden" name="_wpcf7_locale" value="en_US" />
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f94-p80-o1" />
-<input type="hidden" name="_wpnonce" value="141f91ca26" />
+        <div class="header-main clearfix">
+
+            <div id="logo" class="site-branding clearfix">
+
+
+                <a href="http://octoperf.github.io/wintit" title="Wintit" rel="home">
+                    <h1 class="site-title">Wintit</h1>
+                </a>
+
+
+            </div>
+            <!-- .site-branding -->
+
+            <div id="logo2" class="site-branding-alt clearfix">
+                <a href="http://octoperf.github.io/wintit" rel="home">
+                    <h1 class="site-title">Nabis</h1>
+                </a>
+            </div>
+
+            <div class="site-description">Le seul logiciel professionnel abordable de gestion de portefeuilles titres
+            </div>
+
+            <div class="header-widgets clearfix">
+
+
+            </div>
+            <!-- .header-widgets -->
+
+        </div>
+        <!-- .header-main -->
+
+        <nav id="main-navigation" class="primary-navigation navigation clearfix" role="navigation">
+            <ul id="menu-one-page" class="main-navigation-menu">
+                <li id="menu-item-82" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82"><a
+                        href="#accueil">Accueil</a></li>
+                <li id="menu-item-84" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84"><a
+                        href="#produit">Produit</a></li>
+                <li id="menu-item-83" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83"><a
+                        href="#services">Services</a></li>
+                <li id="menu-item-86" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-86"><a
+                        href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- #main-navigation -->
+
+
+    </header>
+    <!-- #masthead -->
+
+    <div id="content" class="site-content container clearfix">
+
+
+        <section id="primary" class="fullwidth-content-area content-area">
+            <main id="main" class="site-main" role="main">
+
+
+                <article id="post-80" class="post-80 page type-page status-publish hentry">
+
+                    <header class="entry-header">
+
+                        <!--<h1 class="page-title">One Page</h1>-->
+
+                    </header>
+                    <!-- .entry-header -->
+
+                    <div class="entry-content clearfix">
+                        <section id="accueil">
+                            <p>Vous voulez <strong>contrôler</strong> votre gestion de portefeuilles
+                                titres.</p>
+
+                            <p>Vous avez des besoins en termes de <strong>gestion, comptabilisation,
+                                reporting</strong> de vos investissements.</p>
+
+                            <p><strong>WINTIT</strong> répond à ces
+                                problématiques depuis <strong>plus de 20 ans</strong> quelle que soit l’importance du
+                                patrimoine que vous gérez.</p>
+
+                            <p>Plus de <strong>50 milliards d’euros</strong> d’encours sont
+                                suivis dans <strong>WINTIT</strong> à l’heure actuelle.</p>
+
+                            <p>Notre maitrise des <strong>spécificités
+                                métier</strong> et des dispositions propres à chacun de nos clients <strong>banques,
+                                mutuelles, caisses de retraite, caisses de congés payés, sociétés…</strong>, ont
+                                renforcé au cours du temps notre connaissance pointue des acteurs et réalités de terrain
+                                et
+                                nous permet de vous proposer les meilleures recommandations possibles.</p>
+
+                            <p>La <strong>pérennité
+                                du logiciel</strong> a toujours été garanti par son adaptabilité aux nouvelles <strong>exigences
+                                réglementaires et financières</strong>, résultat de l’écoute particulière de notre
+                                clientèle et à notre réactivité de développement.</p>
+
+                            <p>Afin de <strong>perpétuer</strong> ce savoir-faire et l’enrichir, notre équipe se
+                                renforce par la formation de nouveaux collaborateurs et nous sommes heureux de pouvoir
+                                annoncer très prochainement l’accès du logiciel <strong>WINTIT sur le Net.</strong></p>
+
+                            <p style="text-align: center;"><strong>WINTIT a vocation à satisfaire vos prérequis
+                                :</strong></p>
+
+                            <p style="text-align: center;"><strong>Budget, Fonctionnalités, Mises en œuvre</strong></p>
+                        </section>
+                        <section id="produit">
+                            <h1>Produit</h1>
+
+                            <h2>LE LOGICIEL</h2>
+
+                            <p><strong>WINTIT</strong> est un <strong>logiciel professionnel</strong> de gestion de
+                                portefeuilles titres qui permet à des <strong>institutionnels, sociétés, experts
+                                    comptables, gestionnaires de patrimoine</strong> de toutes tailles de gérerun nombre
+                                quelconque de <strong>portefeuilles titres et placements</strong>, multi-sociétés,
+                                multi-gestionnaires,multi-devises pour eux-mêmes ou pour le compte de tiers.</p>
+
+                            <p>Une <strong>ergonomie</strong> simple et efficace rend l’utilisation de
+                                <strong>WINTIT</strong> particulièrement facile et apporterapidement tous les éléments
+                                nécessaires à la <strong>comptabilisation</strong> et aux <strong>décisions
+                                    financières</strong>.</p>
+
+                            <p>Notre savoir-faire s’est appuyé sur la qualité des <strong>partenariats</strong>
+                                développés depuis de longues années auprès des <strong>spécialistes financiers</strong>
+                                nous permettant de vous fournir à la demande de nombreux <strong>calculs
+                                    indispensables</strong> à votre métier, taux actuariels, sensibilité, duration,
+                                rendements, valeurs actuelles, …</p>
+
+                            <p>Pour pouvoir satisfaire aux <strong>exigences</strong> de tous les protagonistes appelés
+                                à faire des <strong>contrôles</strong>, nous nous appliquons à faire en sorte de pouvoir
+                                fournir une <strong>piste d’audit</strong> de tous les éléments fournis par le logiciel.
+                            </p>
+
+                            <p>Ainsi en <strong>une seule saisie</strong> – manuelle ou automatique – vous êtes à même
+                                de<br/>
+                                &#8211; <strong>Comptabiliser</strong> : journaux, grand livre, piste d’audit, interface
+                                vers votre comptabilité générale…,<br/>
+                                &#8211; <strong>Valorisation</strong> des portefeuilles : mise à jour des cours, plus ou
+                                moins values latentes, ratios sur n’importe quel critère,<br/>
+                                &#8211; <strong>Gérer et prévoir</strong> : états synthétiques et échéanciers,<br/>
+                                &#8211; <strong>Analyser</strong> : dispersion du portefeuille, risque, rendement
+                                actuariel
+                                et comptable, analyse obligataire…,<br/>
+                                &#8211; <strong>Etats réglementaires</strong> mutuelles prévoyance retraite assurance
+                                banque<br/>
+                                Par exemple pour les mutuelles, assurance et prévoyance :
+                                <br/>réserves de capitalisation, calcul d’amortissement, états trimestriels – T2, T3,
+                                états
+                                suivis de placements…</p>
+
+                            <p>Les nombreux attributs de titres de placements nécessaires à l’établissement des <strong>QRT</strong>
+                                à transmettre à l’<strong>ACPR</strong>.</p>
+
+                            <p>Aujourd’hui, le logiciel WINTIT est enrichi d’un très grand nombre d’attributs, <strong>notations</strong>,
+                                Code <strong>LEI</strong> (Legal Entity Identifier (ISO 17442)), Code
+                                <strong>CIC</strong> (Complementary Identification Code), Code <strong>NACE</strong>
+                                (Nomenclature d’Activités Européennes)…</p>
+
+                            <p>Toutes ces tables peuvent être mises à jour par importation automatique de façon
+                                massive.<br/>
+                                Le gage de <strong>pérennité</strong> du logiciel est notre <strong>veille
+                                    réglementaire</strong>.
+                                <br/>
+                                Depuis toujours nous avons su faire évoluer le logiciel en adéquation avec les
+                                perpétuelles <strong>évolutions des réglementations</strong>.</p>
+
+                            <h2>INTERFACE ET DEVELOPPEMENTS SPECIFIQUES</h2>
+
+                            <p>A partir d’un fichier standard ou spécifique<br/>
+
+                                &#8211; <strong>Mise à jour des cours</strong> de bourses automatique,<br/>
+                                &#8211; Déversement dans la <strong>comptabilité générale</strong>,<br/>
+                                &#8211; Intégration automatique <strong>d’avis d’opérés</strong>,<br/>
+                                &#8211; Intégration de <strong>caractéristiques titres</strong>,<br/>
+                                &#8211; Intégration <strong>attributs de titres de placements</strong></p>
+
+                            <p>Toute demande de restitution dans le logiciel <strong>Wintit</strong> peut se faire
+                                simplement d’un accès direct soit :<br/>
+                                &#8211; Aux normes <strong>Wintit</strong>,<br/>
+                                &#8211; sur <strong>Excel</strong>,<br/>
+                                &#8211; Au format de votre <strong>liasse spécifique</strong></p>
+
+                            <p>Les <strong>informations</strong> de <strong>Wintit</strong> peuvent, à la demande, être
+                                formatées pour un <strong>déversement</strong> dans n’importe quel logiciel de votre
+                                société.</p>
+
+                            <p>En règle générale toute <strong>demande</strong> personnalisée sera analysée et
+                                développée sur cahier des charges pour la réalisation à façon de modules <strong>spécifiques</strong>
+                                externes ou intégrés.</p>
+                        </section>
+                        <section id="services">
+                            <h1>Services</h1>
+
+                            <h2>HOT-LINE, MAINTENANCE ET FORMATION</h2>
+
+                            <p>Après une <strong>démonstration sur site</strong> notre équipe sera là pour vous aider à
+                                la <strong>mise en place</strong>, au <strong>paramétrage</strong> et sera un appui pour
+                                l’<strong>intégration</strong> du logiciel dans le <strong>système
+                                    d’information</strong> de l’entreprise (écriture des procédures adaptées à votre
+                                organisation interne…).</p>
+
+                            <p>Vous serez <strong>soutenu</strong> par un <strong>spécialiste privilégié</strong>,
+                                compétent dans votre domaine qui sera à votre écoute et vous conseillera sur le logiciel
+                                au quotidien à <strong>distance</strong> ou <strong>sur site</strong>.</p>
+
+                            <p>L’<strong>originalité</strong> de notre <strong>maintenance</strong> est non seulement de
+                                vous faire profiter d’une <strong>hot line réactive</strong> mais aussi de vous fournir
+                                toutes les <strong>mises à jour</strong> mineures ou majeures
+                                <strong>gratuitement</strong> afin que vous puissiez toujours être au fait des
+                                évolutions métier.</p>
+
+                            <p>Notre équipe sera bien entendu disponible pour effectuer des <strong>formations</strong>
+                                selon vos besoins.</p>
+
+                            <p style="text-align: center;"><strong>A bientôt</strong></p>
+                        </section>
+                        <section id="contact">
+                            <h1>Contact</h1>
+
+                            <p class="Gras"><b>Société <span class="Nabis">Nabis</span></b></p>
+
+                            <p>Merci de bien vouloir renseigner toutes les rubriques ci-dessous, puis de cliquer sur
+                                [Envoyer]<br/>
+
+                            <div role="form" class="wpcf7" id="wpcf7-f94-p80-o1" lang="en-US" dir="ltr">
+                                <div class="screen-reader-response"></div>
+                                <form action="/#wpcf7-f94-p80-o1" method="post" class="wpcf7-form"
+                                      novalidate="novalidate">
+                                    <div style="display: none;">
+                                        <input type="hidden" name="_wpcf7" value="94"/>
+                                        <input type="hidden" name="_wpcf7_version" value="4.3"/>
+                                        <input type="hidden" name="_wpcf7_locale" value="en_US"/>
+                                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f94-p80-o1"/>
+                                        <input type="hidden" name="_wpnonce" value="141f91ca26"/>
+                                    </div>
+                                    <p><span class="wpcf7-form-control-wrap civilite"><span
+                                            class="wpcf7-form-control wpcf7-radio"><span
+                                            class="wpcf7-list-item first"><input type="radio" name="civilite"
+                                                                                 value="Madame"/>&nbsp;<span
+                                            class="wpcf7-list-item-label">Madame</span></span><span
+                                            class="wpcf7-list-item last"><input type="radio" name="civilite"
+                                                                                value="Monsieur"/>&nbsp;<span
+                                            class="wpcf7-list-item-label">Monsieur</span></span></span></span></p>
+
+                                    <p><span class="wpcf7-form-control-wrap name"><input type="text" name="name"
+                                                                                         value="" size="40"
+                                                                                         class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                                         aria-required="true"
+                                                                                         aria-invalid="false"
+                                                                                         placeholder="Nom, prénom"/></span>
+                                    </p>
+
+                                    <p><span class="wpcf7-form-control-wrap function"><input type="text" name="function"
+                                                                                             value="" size="40"
+                                                                                             class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                                             aria-required="true"
+                                                                                             aria-invalid="false"
+                                                                                             placeholder="Fonction"/></span>
+                                    </p>
+
+                                    <p><span class="wpcf7-form-control-wrap company"><input type="text" name="company"
+                                                                                            value="" size="40"
+                                                                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                                            aria-required="true"
+                                                                                            aria-invalid="false"
+                                                                                            placeholder="Société"/></span>
+                                    </p>
+
+                                    <p><span class="wpcf7-form-control-wrap email"><input type="email" name="email"
+                                                                                          value="" size="40"
+                                                                                          class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                                                                                          aria-required="true"
+                                                                                          aria-invalid="false"
+                                                                                          placeholder="Adresse de courriel"/></span>
+                                    </p>
+
+                                    <p><span class="wpcf7-form-control-wrap phone"><input type="text" name="phone"
+                                                                                          value="" size="40"
+                                                                                          class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                                          aria-required="true"
+                                                                                          aria-invalid="false"
+                                                                                          placeholder="Numéro de téléphone"/></span>
+                                    </p>
+
+                                    <p> Comment avez vous connu notre site ? <span
+                                            class="wpcf7-form-control-wrap connaissance"><select name="connaissance"
+                                                                                                 class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
+                                                                                                 aria-required="true"
+                                                                                                 aria-invalid="false">
+                                        <option value="(merci de choisir dans la liste)">(merci de choisir dans la
+                                            liste)
+                                        </option>
+                                        <option value="par un moteur de recherche">par un moteur de recherche</option>
+                                        <option value="par une relation professionnelle ou personnelle">par une relation
+                                            professionnelle ou personnelle
+                                        </option>
+                                        <option value="par un mailing">par un mailing</option>
+                                        <option value="par un lien dans un forum ou un newsgroup">par un lien dans un
+                                            forum ou un newsgroup
+                                        </option>
+                                        <option value="par un lien depuis un autre site">par un lien depuis un autre
+                                            site
+                                        </option>
+                                        <option value="par un autre canal (merci de le préciser ci-dessous)">par un
+                                            autre canal (merci de le préciser ci-dessous)
+                                        </option>
+                                    </select></span></p>
+                                    <p><span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40"
+                                                                                               rows="10"
+                                                                                               class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
+                                                                                               aria-required="true"
+                                                                                               aria-invalid="false"
+                                                                                               placeholder="Vos questions et/ou suggestions"></textarea></span>
+                                    </p>
+
+                                    <p><span class="wpcf7-form-control-wrap sendmymail"><span
+                                            class="wpcf7-form-control wpcf7-checkbox"><span
+                                            class="wpcf7-list-item first last"><input type="checkbox"
+                                                                                      name="sendmymail[]"
+                                                                                      value="M&#039;envoyer une copie du message"/>&nbsp;<span
+                                            class="wpcf7-list-item-label">M&#039;envoyer une copie du message</span></span></span></span>
+                                    </p>
+
+                                    <p><input type="submit" value="Envoyer" class="wpcf7-form-control wpcf7-submit"/>
+                                    </p>
+
+                                    <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                </form>
+                            </div>
+                            </p>
+                        </section>
+                        <section id="mentionslegales">
+                            <h2>Mentions légales</h2>
+
+                            <p class="mentions-legales">
+                                Ce site Internet (&#8220;Wintit.com&#8221;) est édité sous la responsabilité de la
+                                société <span class="Gras Nabis">Nabis</span> :</p>
+                            <ul class="mentions-legales">
+                                <li class="mentions-legales">téléphone : 01 60 22 22 54 ;</li>
+                                <li class="mentions-legales">capital social : 7.622,45 € ;</li>
+                                <li class="mentions-legales">SIRET : 39777886100039 ;</li>
+                                <li class="mentions-legales">RCS : Meaux B 397 778 861 ;</li>
+                                <li class="mentions-legales">date de création :
+                                    <time datetime="1994-07-25">25/07/1994</time>
+                                    .
+                                </li>
+                            </ul>
+                            <p class="mentions-legales">Les informations présentées sur ce site ont pour objectif d&#8217;informer
+                                au mieux le visiteur, et dans ce but, elles font l&#8217;objet de vérifications et de
+                                mises-à-jour régulières.</p>
+
+                            <p class="mentions-legales">
+                                Toutefois, ces informations ne sont pas contractuelles, et en conséquence, la société
+                                <span class="Nabis">Nabis</span> et ses prestataires déclinent toute responsabilité en
+                                cas d&#8217;inexactitude(s) ou d&#8217;omission(s), seuls faisant foi les documents
+                                écrits émanant d&#8217;un représentant légal de la société <span
+                                    class="Nabis">Nabis</span>.</p>
+
+                            <p class="mentions-legales">
+                                Ce site n&#8217;utilise pas de témoins de connexion (&#8220;cookies&#8221;).
+                            </p>
+                        </section>
+                        <!-- <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:dc="http://purl.org/dc/elements/1.1/"
+                        xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+                    <rdf:Description rdf:about="http://octoperf.github.io/wintit/"
+                dc:identifier="http://octoperf.github.io/wintit"
+                dc:title="One Page"
+                trackback:ping="http://octoperf.github.io/wintit/trackback" />
+            </rdf:RDF> -->
+                        <div class="page-links"></div>
+                    </div>
+                    <!-- .entry-content -->
+
+                </article>
+                <div id="comments" class="comments-area">
+
+
+                </div>
+                <!-- #comments -->
+            </main>
+            <!-- #main -->
+        </section>
+        <!-- #primary -->
+
+
+    </div>
+    <!-- #content -->
+
+
+    <footer id="colophon" class="site-footer clearfix" role="contentinfo">
+
+        <div id="footer-text" class="site-info">
+            Design By <a href="https://octoperf.com/" target="_blank">OctoPerf.com</a>
+        </div>
+        <!-- .site-info -->
+
+        <nav id="footer-links" class="footer-navigation navigation clearfix" role="navigation">
+        </nav>
+        <!-- #footer-links -->
+
+    </footer>
+    <!-- #colophon -->
+
 </div>
-<p> <span class="wpcf7-form-control-wrap civilite"><span class="wpcf7-form-control wpcf7-radio"><span class="wpcf7-list-item first"><input type="radio" name="civilite" value="Madame" />&nbsp;<span class="wpcf7-list-item-label">Madame</span></span><span class="wpcf7-list-item last"><input type="radio" name="civilite" value="Monsieur" />&nbsp;<span class="wpcf7-list-item-label">Monsieur</span></span></span></span></p>
-<p><span class="wpcf7-form-control-wrap name"><input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Nom, prénom" /></span> </p>
-<p><span class="wpcf7-form-control-wrap function"><input type="text" name="function" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Fonction" /></span></p>
-<p><span class="wpcf7-form-control-wrap company"><input type="text" name="company" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Société" /></span> </p>
-<p> <span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Adresse de courriel" /></span></p>
-<p> <span class="wpcf7-form-control-wrap phone"><input type="text" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Numéro de téléphone" /></span></p>
-<p> Comment avez vous connu notre site ? <span class="wpcf7-form-control-wrap connaissance"><select name="connaissance" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="(merci de choisir dans la liste)">(merci de choisir dans la liste)</option><option value="par un moteur de recherche">par un moteur de recherche</option><option value="par une relation professionnelle ou personnelle">par une relation professionnelle ou personnelle</option><option value="par un mailing">par un mailing</option><option value="par un lien dans un forum ou un newsgroup">par un lien dans un forum ou un newsgroup</option><option value="par un lien depuis un autre site">par un lien depuis un autre site</option><option value="par un autre canal (merci de le préciser ci-dessous)">par un autre canal (merci de le préciser ci-dessous)</option></select></span></p>
-<p><span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Vos questions et/ou suggestions"></textarea></span> </p>
-<p><span class="wpcf7-form-control-wrap sendmymail"><span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item first last"><input type="checkbox" name="sendmymail[]" value="M&#039;envoyer une copie du message" />&nbsp;<span class="wpcf7-list-item-label">M&#039;envoyer une copie du message</span></span></span></span></p>
-<p><input type="submit" value="Envoyer" class="wpcf7-form-control wpcf7-submit" /></p>
-<div class="wpcf7-response-output wpcf7-display-none"></div></form></div></p>
-</section>
-<section id="mentionslegales">
-<h2>Mentions légales</h2>
-<p class="mentions-legales">
-Ce site Internet (&#8220;Wintit.com&#8221;) est édité sous la responsabilité de la société <span class="Gras Nabis">Nabis</span> :</p>
-<ul class="mentions-legales">
-<li class="mentions-legales">téléphone : 01 60 22 22 54 ;</li>
-<li class="mentions-legales">capital social : 7.622,45 € ;</li>
-<li class="mentions-legales">SIRET : 39777886100039 ;</li>
-<li class="mentions-legales">RCS : Meaux B 397 778 861 ;</li>
-<li class="mentions-legales">date de création : <time datetime="1994-07-25">25/07/1994</time>.</li>
-</ul>
-<p class="mentions-legales">Les informations présentées sur ce site ont pour objectif d&#8217;informer au mieux le visiteur, et dans ce but, elles font l&#8217;objet de vérifications et de mises-à-jour régulières.</p>
-<p class="mentions-legales">
-Toutefois, ces informations ne sont pas contractuelles, et en conséquence, la société <span class="Nabis">Nabis</span> et ses prestataires déclinent toute responsabilité en cas d&#8217;inexactitude(s) ou d&#8217;omission(s), seuls faisant foi les documents écrits émanant d&#8217;un représentant légal de la société <span class="Nabis">Nabis</span>.</p>
-<p class="mentions-legales">
-Ce site n&#8217;utilise pas de témoins de connexion (&#8220;cookies&#8221;).
-</p>
-<p class="mentions-legales">
-Pour de plus amples renseignements, merci de <a href="#contact">nous contacter</a>.
-</p>
-</section>
-			<!-- <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-			xmlns:dc="http://purl.org/dc/elements/1.1/"
-			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
-		<rdf:Description rdf:about="http://octoperf.github.io/wintit/"
-    dc:identifier="http://octoperf.github.io/wintit"
-    dc:title="One Page"
-    trackback:ping="http://octoperf.github.io/wintit/trackback" />
-</rdf:RDF> -->
-			<div class="page-links"></div>	
-		</div><!-- .entry-content -->
-
-	</article>
-<div id="comments" class="comments-area">
-
-	
-	
-	
-	
-</div><!-- #comments -->		
-		</main><!-- #main -->
-	</section><!-- #primary -->
-
-	
-	</div><!-- #content -->
-	
-	
-	<footer id="colophon" class="site-footer clearfix" role="contentinfo">
-		
-		<div id="footer-text" class="site-info">
-Design By <a href="https://octoperf.com/"  target="_blank">OctoPerf.com</a>
-		</div><!-- .site-info -->
-			
-		<nav id="footer-links" class="footer-navigation navigation clearfix" role="navigation">
-		</nav><!-- #footer-links -->
-
-	</footer><!-- #colophon -->
-
-</div><!-- #page -->
+<!-- #page -->
 
 <script type='text/javascript' src='js/jquery.form.min.3.51.0-2014.06.20.js'></script>
 <script type='text/javascript'>
-/* <![CDATA[ */
-var _wpcf7 = {"loaderUrl":"css\/ajax-loader.gif","sending":"Sending ..."};
-/* ]]> */
+    /* <![CDATA[ */
+    var _wpcf7 = {"loaderUrl": "css\/ajax-loader.gif", "sending": "Sending ..."};
+    /* ]]> */
 </script>
 <script type='text/javascript' src='js/scripts.4.3.js'></script>
 
