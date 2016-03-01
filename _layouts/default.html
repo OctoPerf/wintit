@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+<div id="page" class="hfeed site">
+    {% include header.html %}
+
+    <div id="content" class="site-content container clearfix">
+
+
+        <section id="primary" class="fullwidth-content-area content-area">
+            <main id="main" class="site-main" role="main">
+
+
+                <article id="post-80" class="post-80 page type-page status-publish hentry">
+
+                    <header class="entry-header">
+
+                        <!--<h1 class="page-title">One Page</h1>-->
+
+                    </header>
+                    <!-- .entry-header -->
+
+                    <div class="entry-content clearfix">
+                        {{ content }}
+                        <div class="page-links"></div>
+                    </div>
+                    <!-- .entry-content -->
+
+                </article>
+            </main>
+        </section>
+
+        {% include footer.html %}
+    </div>
+
+</body>
+
+</html>
