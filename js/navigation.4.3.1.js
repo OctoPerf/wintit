@@ -229,8 +229,8 @@ jQuery(document).ready(function(){
 			var target = jQuery(this.hash);
 			target = target.length ? target : jQuery('[name=' + this.hash.slice(1) +']');
 			if (target.length) {
-				var top = target.offset().top - 140;
-				if (top < 200){
+				var top = target.offset().top - 260;
+				if (top < 260){
 					// Accueil
 					top = 0;
 				}
