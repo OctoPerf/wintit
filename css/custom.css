@@ -46,44 +46,38 @@
     font-size: 25px;
 }
 
-.pearls {
-    background-image: url(pearls.jpg);
+
+.img {
+    background-size: cover;
     background-position: left top;
-    background-size: 100% 100%;
-    margin-right: 20px;
     width: 200px;
     height: 400px;
+}
+
+.img-left{
+    margin-right: 20px;
     float: left;
+}
+
+.img-right{
+    margin-left: 20px;
+    float: right;
+}
+
+.pearls {
+    background-image: url(pearls.jpg);
 }
 
 .sky {
     background-image: url(sky.jpg);
-    background-position: left top;
-    background-size: 100% 100%;
-    margin-left: 20px;
-    width: 200px;
-    height: 400px;
-    float: right;
 }
 
 .wires {
     background-image: url(wires.jpg);
-    background-position: left top;
-    background-size: 100% 100%;
-    margin-right: 40px;
-    width: 382px;
-    height: 259px;
-    float: left;
 }
 
 .sparkles {
     background-image: url(sparkles.jpg);
-    background-position: left top;
-    background-size: 100% 100%;
-    margin-right: 20px;
-    width: 200px;
-    height: 400px;
-    float: left;
 }
 
 .shadow{
@@ -149,4 +143,94 @@ section li {
 .float-left-50 {
     float: left;
     width: 50%;
+}
+
+.content-area {
+    margin-top: 120px;
+}
+
+/*remove nav shink*/
+.site-header .site-branding,
+.site-header .site-branding-alt
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+    .img {
+        width: 150px;
+        height: 300px;
+    }
+
+    .well-1, .well-2, .well-5 strong, .big {
+        font-size: 20px;
+    }
+
+    .well-1 strong {
+        font-size: 28px;
+    }
+
+    .well-3, .well-4, .well-5{
+        font-size: 16px;
+    }
+    body,
+    button,
+    input,
+    select,
+    textarea {
+        font-size: 14px !important;
+        font-size: 0.9rem !important;
+        line-height: 1.35 !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .img {
+        width: 100px;
+        height: 200px;
+    }
+
+    .well-1, .well-2, .well-5 strong, .big {
+        font-size: 16px;
+    }
+
+    .well-1 strong {
+        font-size: 20px;
+    }
+
+    .well-3, .well-4, .well-5{
+        font-size: 14px;
+    }
+
+    body,
+    button,
+    input,
+    select,
+    textarea {
+        font-size: 12px !important;
+        font-size: 0.8rem !important;
+        line-height: 1.2 !important;
+    }
+
+    .float-right-50 {
+        float: none;
+        width: 100%;
+    }
+
+    .float-left-50 {
+        float: none;
+        width: 100%;
+    }
+
+    .site-header .site-branding,
+    .site-header .site-branding-alt
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .content-area {
+        margin-top: 100px;
+    }
 }

@@ -2,7 +2,11 @@
 layout: default
 ---
 
-# Avec **Wintit** <br/> Contrôlez et gérez directement vos portefeuilles titres
+<div id="accueil"></div>
+
+#Le seul logiciel professionnel abordable de gestion de portefeuilles titres
+
+## Avec **Wintit** Contrôlez et gérez directement vos portefeuilles titres
 
 <div class="border centered well-1">
 Répondez <br/> à vos <b>besoins</b> de <br/> <strong>gestion, comptabilisation, reporting</strong> des <strong>investissements</strong>
@@ -12,7 +16,7 @@ Répondez <br/> à vos <b>besoins</b> de <br/> <strong>gestion, comptabilisation
 
 Plus de **50 milliards d'euros** d'encours sont suivis aujourd'hui dans **WINTIT** par des organismes de toute nature.
 
-<div class="pearls"></div>
+<div class="pearls img img-left"></div>
 
 **Une solution éprouvée** - Notre maitrise des **spécificités métier** et des dispositions propres à chacun de nos clients **banques, mutuelles, caisses de retraite, caisses de congés payés, sociétés...**, ont renforcé au cours du temps notre connaissance pointue des acteurs et réalités de terrain et nous permet de vous recommander les solutions les meilleures et les mieux adaptées à vos besoins.
 
@@ -36,7 +40,7 @@ Nous sommes heureux de pouvoir annoncer très prochainement la commercialisation
 
 ## LE LOGICIEL
 
-<div class="sky"></div>
+<div class="sky img img-right"></div>
 
 **WINTIT** est un **logiciel professionnel** de gestion de portefeuilles titres qui s'adresse aux **institutionnels, sociétés, experts comptables, gestionnaires de patrimoine** de toutes tailles.
 Il leur permet de gérer - pour eux-mêmes ou pour le compte de tiers - un nombre quelconque de : **portefeuilles titres et placements**, multi-sociétés, multi-gestionnaires, multi-devises.
@@ -82,7 +86,7 @@ Le gage de <strong>pérennité</strong> du logiciel est notre <strong>veille ré
 
 A partir d'un fichier standard ou spécifique :
 
-<div class="wires"></div>
+<div class="wires img img-left"></div>
 
 * **Mise à jour des cours** de bourses automatique,
 * Déversement dans la **comptabilité générale**,
@@ -118,7 +122,7 @@ Notre intervention ne se limite pas à une simple <strong>formation</strong> à 
 
 ---------------------
 
-<div class="sparkles"></div>
+<div class="sparkles img img-left"></div>
 
 Après une **démonstration sur site** notre équipe est là pour
 
