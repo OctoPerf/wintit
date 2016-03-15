@@ -162,10 +162,12 @@ Notre équipe est bien entendu disponible pour effectuer des **formations** selo
 # CONTACT
 
 <p class="Gras"><b>Société <span class="Nabis">Nabis</span></b></p>
+<h6 id="sentMail"  hidden><b>Le mail de contact a été envoyé avec succès.</b></h6>
+<h6 id="errorMail"  hidden><b>Erreur lors de l'envoi du mail.</b></h6>
 <p>Merci de bien vouloir renseigner toutes les rubriques ci-dessous, puis de cliquer sur [Envoyer]<br />
 <div role="form" class="wpcf7" id="wpcf7-f94-p80-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"></div>
-<form action="/#wpcf7-f94-p80-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<form method="post" class="wpcf7-form" novalidate="novalidate" id="formContact">
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="94" />
 <input type="hidden" name="_wpcf7_version" value="4.3" />
@@ -173,16 +175,16 @@ Notre équipe est bien entendu disponible pour effectuer des **formations** selo
 <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f94-p80-o1" />
 <input type="hidden" name="_wpnonce" value="141f91ca26" />
 </div>
-<p> <span class="wpcf7-form-control-wrap civilite"><span class="wpcf7-form-control wpcf7-radio"><span class="wpcf7-list-item first"><input type="radio" name="civilite" value="Madame" />&nbsp;<span class="wpcf7-list-item-label">Madame</span></span><span class="wpcf7-list-item last"><input type="radio" name="civilite" value="Monsieur" />&nbsp;<span class="wpcf7-list-item-label">Monsieur</span></span></span></span></p>
-<p><span class="wpcf7-form-control-wrap name"><input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Nom, prénom" /></span> </p>
-<p><span class="wpcf7-form-control-wrap function"><input type="text" name="function" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Fonction" /></span></p>
-<p><span class="wpcf7-form-control-wrap company"><input type="text" name="company" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Société" /></span> </p>
-<p> <span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Adresse de courriel" /></span></p>
-<p> <span class="wpcf7-form-control-wrap phone"><input type="text" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Numéro de téléphone" /></span></p>
-<p> Comment avez vous connu notre site ? <span class="wpcf7-form-control-wrap connaissance"><select name="connaissance" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="(merci de choisir dans la liste)">(merci de choisir dans la liste)</option><option value="par un moteur de recherche">par un moteur de recherche</option><option value="par une relation professionnelle ou personnelle">par une relation professionnelle ou personnelle</option><option value="par un mailing">par un mailing</option><option value="par un lien dans un forum ou un newsgroup">par un lien dans un forum ou un newsgroup</option><option value="par un lien depuis un autre site">par un lien depuis un autre site</option><option value="par un autre canal (merci de le préciser ci-dessous)">par un autre canal (merci de le préciser ci-dessous)</option></select></span></p>
-<p><span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Vos questions et/ou suggestions"></textarea></span> </p>
-<p><span class="wpcf7-form-control-wrap sendmymail"><span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item first last"><input type="checkbox" name="sendmymail[]" value="M&#039;envoyer une copie du message" />&nbsp;<span class="wpcf7-list-item-label">M&#039;envoyer une copie du message</span></span></span></span></p>
-<p><input type="submit" value="Envoyer" class="wpcf7-form-control wpcf7-submit" /></p>
+<p> <span class="wpcf7-form-control-wrap civilite"><span class="wpcf7-form-control wpcf7-radio"><span class="wpcf7-list-item first"><input type="radio" name="civilite" id="form_civilite_madame" value="Madame" />&nbsp;<span class="wpcf7-list-item-label">Madame</span></span><span class="wpcf7-list-item last"><input type="radio" name="civilite" id="form_civilite_monsieur" value="Monsieur" />&nbsp;<span class="wpcf7-list-item-label">Monsieur</span></span></span></span></p>
+<p><span class="wpcf7-form-control-wrap name"><input type="text" id="form_name" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Nom, prénom" /></span> </p>
+<p><span class="wpcf7-form-control-wrap function"><input type="text" id="form_function" name="function" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Fonction" /></span></p>
+<p><span class="wpcf7-form-control-wrap company"><input type="text" id="form_company" name="company" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Société" /></span> </p>
+<p> <span class="wpcf7-form-control-wrap email"><input type="email" id="form_email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Adresse de courriel" /></span></p>
+<p> <span class="wpcf7-form-control-wrap phone"><input type="text" id="form_phone" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Numéro de téléphone" /></span></p>
+<p> Comment avez vous connu notre site ? <span class="wpcf7-form-control-wrap connaissance"><select id="form_connaissance" name="connaissance" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="(merci de choisir dans la liste)">(merci de choisir dans la liste)</option><option value="par un moteur de recherche">par un moteur de recherche</option><option value="par une relation professionnelle ou personnelle">par une relation professionnelle ou personnelle</option><option value="par un mailing">par un mailing</option><option value="par un lien dans un forum ou un newsgroup">par un lien dans un forum ou un newsgroup</option><option value="par un lien depuis un autre site">par un lien depuis un autre site</option><option value="par un autre canal (merci de le préciser ci-dessous)">par un autre canal (merci de le préciser ci-dessous)</option></select></span></p>
+<p><span class="wpcf7-form-control-wrap message"><textarea id="form_message" name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Vos questions et/ou suggestions"></textarea></span> </p>
+<p><span class="wpcf7-form-control-wrap sendmymail"><span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item first last"><input type="checkbox" id="sendmymail" name="sendmymail[]" value="M&#039;envoyer une copie du message" />&nbsp;<span class="wpcf7-list-item-label">M&#039;envoyer une copie du message</span></span></span></span></p>
+<p><input id="submitContact" type="button" value="Envoyer" class="wpcf7-form-control wpcf7-submit" /></p>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div></p>
 
 <br/><br/>
