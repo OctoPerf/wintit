@@ -279,25 +279,6 @@ jQuery(document).ready(function () {
                 jQuery('#errorMail').show();
             }
         });
-        //Parse.initialize("tsVjWn4AwCdEkUkXR1dmuqaAMogtYspBBlHTWNRw", "Xm3zcKBgHkDpprIoTZm5H04BNe5GP6TalznNXuhm");
-        //Parse.Cloud.run('mailSend', {
-        //    target: 'edeltil@gmail.com',
-        //    originator: email,
-        //    subject: '[Freelance] Nouveau client : ' + name,
-        //    text: contentMsg
-        //}, {
-        //    // Success handler
-        //    success: function () {
-        //        jQuery('#sentMail').show();
-        //        jQuery('#errorMail').hide();
-        //        jQuery('#formContact')[0].reset();
-        //    },
-        //    // Error handler
-        //    error: function (message) {
-        //        jQuery('#sentMail').hide();
-        //        jQuery('#errorMail').show();
-        //    }
-        //});
     });
 });
 

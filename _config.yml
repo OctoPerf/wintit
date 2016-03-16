@@ -8,8 +8,8 @@
 # Site settings
 title: Wintit
 description: Le seul logiciel professionnel abordable de gestion de portefeuilles titres
-baseurl: "/wintit" # the subpath of your site, e.g. /blog
-url: "http://wintit.fr" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://wintit.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
