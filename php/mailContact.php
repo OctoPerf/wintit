@@ -16,12 +16,12 @@ $message .= '</tbody></table></body></html>';
 
 	$copy = $_POST['copy'];
 	//send email
-	$to      = 'edeltil@gmail.com';//'bettina.gerecht@wintit.com, rene.khlat@wintit.com, bbruet@wintit.com'
-	//$Expediteur = 'postmaster@wintit.com';
+	$to      = 'bettina.gerecht@wintit.com, rene.khlat@wintit.com, bbruet@wintit.com';
+	$Expediteur = 'postmaster@wintit.com';
 	$subject = "Message d'un visiteur sur le site WINTIT";
 	
-	$headers = 'From: edeltil@gmail.com' . "\r\n" .
-    		'Reply-To: edeltil@gmail.com' . "\r\n" .
+	$headers = 'From: postmaster@wintit.com' . "\r\n" .
+    		'Reply-To: postmaster@wintit.com' . "\r\n" .
     		'X-Mailer: PHP/' . phpversion();
 
    	if(trim($DestinatairesCaches)) $headers .= 'Bcc: '.$DestinatairesCaches."\r\n";
